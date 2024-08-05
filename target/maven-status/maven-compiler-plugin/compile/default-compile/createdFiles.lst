@@ -1,6 +1,0 @@
-com\eventGames\punabioApp\controller\UsuarioController.class
-com\eventGames\punabioApp\model\Usuario.class
-com\eventGames\punabioApp\service\UsuarioService.class
-com\eventGames\punabioApp\PunabioAppApplication.class
-com\eventGames\punabioApp\model\Usuario$UsuarioBuilder.class
-com\eventGames\punabioApp\repository\UsuarioRepository.class
