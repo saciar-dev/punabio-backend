@@ -9,6 +9,7 @@ services:
       - DATABASE_URL=jdbc:mysql://mysqldb:3306/punabiobd
       - DATABASE_USER=root
       - DATABASE_PASS=123456
+    restart: always
     depends_on:
       mysqldb:
         condition: service_healthy
