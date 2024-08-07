@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
-    @Query("select c from Usuario c where c.email= ?1 or c.zona= ?2")
+    @Query("select c from Usuario c where c.email= ?1 and c.zona= ?2")
     List<Usuario> getUsuarioByEmailAndZone(String email, String zona);
 
 }
